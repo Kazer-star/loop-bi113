@@ -24,6 +24,7 @@ main {
 .container {
     width: 1110px;
     margin: 0 auto;
+    position: relative;
 }
 
 /*---------------section delivery--------------*/
@@ -162,4 +163,86 @@ ul {
 .mainmenu_list a:hover {
     text-decoration: underline;
     text-decoration-color: black;
+}
+
+/*------------------------------section-new------------------------------*/
+
+.news .container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.new__title {
+    font-size: 36;
+    text-transform: uppercase;
+}
+
+.new__btn {
+    width: 220px;
+    height: 50px;
+    background: #D7B399;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+.new__btn:hover,
+.new__btn:focus {
+    background-color: #7e583c;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border: 1px solid #D7B399;
+    padding: 22px 25px 25px;
+    position: relative;
+}
+
+.card__title {
+    font-size: 14px;
+    font-weight: 600px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 71px;
+    margin-right: 71px;
+}
+
+.card__price {
+    font-size: 18px;
+    color: #D7B399;
+    font-weight: bold;
+}
+
+/* .card:nth-child(2) {
+    position: sticky;
+    top: 200px;
+    left: 300px;
+} */
+
+.bi-bi-bookmark {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    fill: #D7B399;
+    z-index: 10;
+}
+
+.bi-bi-bookmark:hover,
+.bi-bi-bookmark:focus {
+    fill: #7e583c;
+}
+
+.pic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
